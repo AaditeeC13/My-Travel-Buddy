@@ -474,7 +474,7 @@ const TravelBuddyDemo = () => {
       `}</style>
       {showAuth && (
   <div className="fixed inset-0 z-50 overflow-y-auto bg-black bg-opacity-30">
-    <AuthPage onBackToDemo={() => window.location.href = '/My-Travel-Buddy/'} />
+    <AuthPage onBackToDemo={() => window.location.href = './'} />
   </div>
 )}
     </div>
